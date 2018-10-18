@@ -17,11 +17,12 @@
     <!-- Beginning nav -->
     <nav>
         <h1><a href="./index.html" aria-label="Link to Restaurant Reviews">Restaurant Reviews</a></h1>
+
+        <!-- Beginning breadcrumb -->
+        <ul id="breadcrumb" role="navigation" aria-label="Breadcrumb">
+            <li><a href="./index.html" aria-label="Link to Home">Home</a></li>
+        </ul>
     </nav>
-    <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb">
-        <li><a href="./index.html" aria-label="Link to Home">Home</a></li>
-    </ul>
     <!-- End breadcrumb -->
     <!-- End nav -->
 </header>
@@ -37,11 +38,12 @@
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
         <h2 id="restaurant-name" tabfocus="0"></h2>
-        <div id="restaurant-favorite"></div><br />
+        <div id="restaurant-favorite"></div>
+        <br/>
         <img id="restaurant-img" alt="Image of the restaurant">
         <p id="restaurant-cuisine"></p>
         <p id="restaurant-address"></p>
-        <table id="restaurant-hours" tabfocus="0"></table>
+        <table id="restaurant-hours" tabindex="0"></table>
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
@@ -49,7 +51,7 @@
         <ul id="reviews-list"></ul>
     </section>
     <!--<section id="review-form-section">-->
-        <!--<div id="review-form"></div>-->
+    <!--<div id="review-form"></div>-->
     <!--</section>-->
     <!-- End reviews -->
 </main>
